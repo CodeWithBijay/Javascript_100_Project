@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images Slide Show</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <img src="images/3.jpg" alt="" id="slide">
+
+        <ul class="navigation">
+            <li><img src="images/1.jpg" alt="" onclick="slideImg('slide',this.src)"></li>
+            <li><img src="images/2.jpg" alt="" onclick="slideImg('slide',this.src)"></li>
+            <li><img src="images/3.jpg" alt="" onclick="slideImg('slide',this.src)"></li>
+            <li><img src="images/4.jpg" alt="" onclick="slideImg('slide',this.src)"></li>
+        </ul>
+        <h2>We are Royal and Luxury</h2>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
